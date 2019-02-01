@@ -1,44 +1,4 @@
-<center><h4>中间件xxx库使用说明手册模板</h4>
-<table>
-	<tr>
-		<td><b>版本</b></td>
-		<td>V1.0</td>		
-	</tr>
-	<tr>
-		<td><b>关键字</b></td>
-		<td>中间件、加密解密库、使用手册、模板</td>
-	</tr>
-	<tr>
-		<td><b>创建时间</b></td>
-		<td>2017-01-03</td>
-	</tr>
-	<tr>
-		<td><b>创建人</b></td>
-		<td>曾井芳</td>
-	</tr>
-	<tr>
-		<td><b>最新发布日期</b></td>
-		<td>2017-01-03</td>
-	</tr>
-</table></center>
-<center><h4>文档变更记录</h4>
-<table>
-	<tr>
-		<td><b>更改人</b></td>
-		<td><b>日期</b></td>
-		<td><b>更改内容</b></td>		
-	</tr>
-	<tr>
-		<td>曾井芳</td>
-		<td>2017-01-03</td>
-		<td>创建文件</td>		
-	</tr>
-	<tr>
-		<td>&emsp;</td>
-		<td>&emsp;</td>
-		<td>&emsp;</td>		
-	</tr>
-</table></center> 
+
 
 # 关于
 加密解密库目前是基于主流的加密方案进行封装的工具类库，包括摘要加密（MD5，SHA等），Base64编解码，对称加解密（DES,3DES,AES）,非对称加解密（RSA），以及DES,3DES,AES，RSA的密钥生成器，涵盖目前应用中用到的加解密算法。仅对外发布jar包，支持后台以及android前端开发。
@@ -80,8 +40,3 @@ http://172.28.2.93/bfc/BfcCrypto.git
 
 ## 升级清单文档
 - 文档名称： [UPDATE.md ](http://172.28.2.93/bfc/BfcCrypto/blob/master/UPDATE.md)
-
-# 最后
-希望大家多多使用和提出宝贵意见，大家一起讨论进步，一起完善本库。
-联系方式 ： 15992936593  RTX：  曾井芳（20252366）
-参与开发人员： 曾井芳、刘业武
