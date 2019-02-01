@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eebbk.bfc.demo.crypto">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".basicui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".safe.SafeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".basic.BasicFunctionTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".performance.PerformanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".limit.LimitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".other.OtherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".basic.AlgorithmTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".basic.irreversible.IrreversibleTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".basic.base64.Base64TestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".basic.symmetry.SymmetryTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".basic.asymmetry.AsymmetryTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".basic.VersionInfoTestActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".basic.irreversible.Md5Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".basic.irreversible.ShaActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".basic.asymmetry.RsaActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".basic.symmetry.DesActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".basic.symmetry.AesActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".basic.symmetry.DesedeActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

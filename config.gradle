@@ -1,0 +1,19 @@
+ext {
+    BUILD_BRANCH_NAME='develop'
+    // 配置demo以及所有sdk的版本名称,上传库到私有maven仓库时需配置此项
+    // 名称中以“-beta”结尾将会上传到maven快照仓库中，去掉即可上传到正式发布仓库
+    VERSION_NAME = '5.0.0'
+    // 配置demo以及所有sdk的版本Code值
+    VERSION_CODE = 11
+
+    android = [
+            applicationId: "com.eebbk.bfc.demo.crypto",
+    ]
+
+    dependencies = [
+            // demo v7包
+            "appcompat-v7"             : 'com.android.support:appcompat-v7:23.4.0',
+            // demo 测试用
+            "bfc-crypto"                : 'com.eebbk.bfc:bfc-crypto:2.0.5-rc',
+    ]
+}

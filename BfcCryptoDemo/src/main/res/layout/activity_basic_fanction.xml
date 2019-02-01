@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_safe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <Button
+        style="@style/BasicBtnItemStyle"
+        android:id="@+id/algorithm_btn"
+        android:text="算法测试"/>
+
+    <Button
+        style="@style/BasicBtnItemStyle"
+        android:id="@+id/version_btn"
+        android:text="版本信息"/>
+
+</LinearLayout>

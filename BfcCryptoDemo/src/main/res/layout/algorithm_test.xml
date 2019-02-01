@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        style="@style/BasicBtnItemStyle"
+        android:id="@+id/irreversible_btn"
+        android:text="不可逆加密测试"/>
+
+    <Button
+        style="@style/BasicBtnItemStyle"
+        android:id="@+id/base64_btn"
+        android:text="Base64加密解密测试"/>
+
+    <Button
+        style="@style/BasicBtnItemStyle"
+        android:id="@+id/symmetry_btn"
+        android:text="对称加密解密测试"/>
+
+    <Button
+        style="@style/BasicBtnItemStyle"
+        android:id="@+id/asymmetry_btn"
+        android:text="非对称加密解密测试"/>
+
+</LinearLayout>

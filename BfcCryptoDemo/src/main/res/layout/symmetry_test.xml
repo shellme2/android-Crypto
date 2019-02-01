@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/des_btn"
+        style="@style/BasicBtnItemStyle"
+        android:text="DES测试" />
+
+    <Button
+        android:id="@+id/aes_btn"
+        style="@style/BasicBtnItemStyle"
+        android:text="AES测试" />
+
+    <Button
+        android:id="@+id/desede_btn"
+        style="@style/BasicBtnItemStyle"
+        android:text="3DES测试" />
+</LinearLayout>
+
+

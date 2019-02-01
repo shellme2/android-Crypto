@@ -1,0 +1,32 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "http://172.28.2.93/bfc/Bfc/raw/develop/common-config/bfc-config.gradle"
+apply from: "config.gradle"
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.0.0'
+//        classpath 'com.getkeepsafe.dexcount:dexcount-gradle-plugin:0.6.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        // 增加私有Maven快照仓库
+        maven { url bfcBuildConfig.MAVEN_SNAPSHOT_URL }
+        // 增加私有Maven正式发布仓库
+        maven { url bfcBuildConfig.MAVEN_URL }
+
+        maven { url bfcBuildConfig.MAVEN_RC_URL}
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
